@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 {% block title %}
-  Анфиса для друзей. Подробное описание мороженого
+Анфиса для друзей. {{ ice_cream.title }}
 {% endblock %}
+<main class="pt-5 my-5">       
+  <div class="container">
 {% block content %}
   <h1>Подробное описание мороженого</h1>
   <h3>{{ ice_cream.title }}</h3>
